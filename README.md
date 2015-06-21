@@ -8,3 +8,7 @@ Download this repo
 
 ## Usage
 ./path/to/tg/bin/telegram-cli -Z ./path/to/Botato/bot.py
+
+## Required dependencies
+* Requests
+* Pillow
