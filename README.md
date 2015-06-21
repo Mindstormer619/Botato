@@ -3,6 +3,7 @@ Yet another python telegram bot, using plugins
 
 ## Installation
 Go install [telegram-cli](https://github.com/vysheng/tg)
+
 Download this repo
 
 ## Usage
