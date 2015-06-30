@@ -7,7 +7,7 @@ def function(mag, matches, peer):
 	Made by @awkward_potato
 	Running on a raspberry pi 2
 	A Botato (part potato and part bot)
-	v1.0 https://github.com/JuanPotato/Botato
+	v1.1 https://github.com/JuanPotato/Botato
 	"""
 	return message
 

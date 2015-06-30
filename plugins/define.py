@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 import re
 
 def define(phrase):
-	url = "http://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + phrase + "?key=da8b4077-583b-4788-9f5c-bf402f1c55e2"
+	url = "http://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + phrase + "?key=PUT_KEY_HERE"
 	r = requests.get(url)
 	root = ET.fromstring(r.text.encode('ascii', 'replace'))
 	defs = root.findall("./entry[1]/def/dt")

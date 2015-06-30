@@ -6,7 +6,9 @@ import re
 import html as h
 
 def function(msg, matches, peer):
-	payload = {'term': matches[0]}
+	payload = {
+		'term': matches[0]
+	}
 	r = requests.get("http://www.urbandictionary.com/define.php", params = payload)
 	html = r.text
 

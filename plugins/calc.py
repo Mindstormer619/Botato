@@ -6,7 +6,9 @@ import requests
 def function(msg, matches, peer):
 	returnText = "Oops, an error occurred."
 	exp = matches[0]
-	payload = {'expr': exp}
+	payload = {
+		'expr': exp
+	}
 	r = requests.get("http://api.mathjs.org/v1/", params = payload)
 	if r.text:
 		returnText = r.text
