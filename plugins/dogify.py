@@ -33,7 +33,7 @@ plugin = {
 	'patterns': ["^/dogify (.+)$"],
 	'function': function,
 	'elevated': False,
-	'usage' : "/dogify words/or phrases seperated/by/dashes",
+	'usage' : "/dogify words/or phrases seperated/by/slashes",
 	'desc' : "Makes a doge meme from given phrases"
 	}
 
